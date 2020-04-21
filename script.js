@@ -1,3 +1,5 @@
+//takes input values from other function
+//adds whether the size is going up or down and the amount added as wel as element
 function changeSize(element, addPx, changePosition) {
   console.log("test")
   element = document.querySelector(element);
