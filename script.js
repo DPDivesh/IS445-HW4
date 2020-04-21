@@ -4,7 +4,8 @@ function changeSize(element, addPx, changePosition) {
   console.log("test")
   element = document.querySelector(element);
   let balloonVal = window.getComputedStyle(element).fontSize;
-  let balloonSize = sizeCalc(balloonVal, "px");
+  let balloonSize = sizeCalc(balloonVal + "px");
+  console.log(balloonSize)
 //conditionals based on direction
   if (changePosition === "up") {
     balloonSize += addPx;
